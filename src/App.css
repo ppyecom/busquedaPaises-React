@@ -8,7 +8,7 @@
   position: absolute;
     right: 0;
     width: 80%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     padding-left: 70px;
