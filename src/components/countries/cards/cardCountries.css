@@ -1,0 +1,70 @@
+.card-countrie{
+    width: 300px;
+    height: 200px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 6px 3px 5px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card-countrie:hover .sub{
+    background: rgb(192, 125, 255);
+    color: white;
+}
+
+.imagen-countrie{
+    height: 65%;
+}
+
+.imagen-countrie img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sub{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.icon{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.titles{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.names{
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: blueviolet;
+}
+
+@media (max-width: 790px){
+    .card-countrie{
+        width: 250px;
+        height: 150px;
+
+    }
+}
+
